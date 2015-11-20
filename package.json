@@ -1,18 +1,19 @@
 {
-  "name": "json2officexml",
-  "description": "Minimalist JSON to XLS (Excel Office XML) writer.",
-  "version": "0.0.5",
+  "name": "json2officexml-2",
+  "description": "Fix for the Minimalist JSON to XLS (Excel Office XML) writer.",
+  "version": "0.0.6",
   "author": "Pierre Metrailler <pierre@shockfish.com>",
+  "contributors": ["James Worth <jamesworth93@gmail.com>"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimetrai/node-json2officexml.git"
+    "url": "git://github.com/JamesWorth93/node-json2officexml-2.git"
   },
   "keywords": [
     "xls"
   ],
   "main": "./lib/json2officexml",
   "dependencies": {
-    "xmlbuilder" : ">= 0.3.1"
+    "xmlbuilder" : "~4.1.0"
   },
   "scripts": {
     "test": "for i in tests/test*.js; do node \"$i\"; done"
